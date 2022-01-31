@@ -1,0 +1,8 @@
+{
+  "name": "my-CV",
+  "version": "1.0.0",
+  "description": "Pure HTML and CSS cv",
+  "main": "index.js",
+  "author": "dreezi",
+  "license": "MIT"
+}

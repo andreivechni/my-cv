@@ -1,0 +1,70 @@
+@import "vars.css";
+
+.header {
+  grid-area: header;
+  display: flex;
+  clip-path: polygon(20px 0px, 100% 0px, 100% 100%, 0px 100%, 0px 20px);
+  padding-top: 20px;
+  padding-left: 20px;
+  flex-direction: column;
+  text-transform: uppercase;
+  gap: 10px;
+}
+
+.fullname {
+  font-weight: bolder;
+  letter-spacing: 0.2rem;
+  font-size: 22px;
+  text-transform: uppercase;
+  margin-bottom: 4px;
+}
+
+.fullname span {
+  position: relative;
+}
+
+.fullname span:before {
+  transition: all 0.5s;
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 1px;
+  bottom: -4px;
+  left: 0px;
+  border-bottom: 3px solid var(--light-brown);
+  clip-path: polygon(0 0, 100% 0%, 90% 100%, 0% 100%);
+}
+
+.fullname span:hover::before {
+  width: 100%;
+}
+
+.position {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.js-icon {
+  height: 35px;
+  width: 35px;
+}
+
+.position:hover svg {
+  fill: #ffd600;
+}
+
+.message {
+  margin-left: 45px;
+  display: flex;
+  gap: 10px;
+}
+
+.message svg {
+  transition: all 1s;
+  fill: var(--light-brown);
+}
+
+.message:hover svg {
+  transform: translateX(100vw) translateY(-120px);
+}

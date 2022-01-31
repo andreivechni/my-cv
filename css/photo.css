@@ -1,0 +1,15 @@
+.photo {
+  grid-area: photo;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  clip-path: polygon(0 0, 180px 0, 100% 20px, 100% 100%, 0 100%, 0% 50%);
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 1px solid var(--pinky);
+  padding: 4px;
+}

@@ -1,0 +1,23 @@
+@import "vars.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a:link {
+  font-weight: 100;
+  color: var(--brown);
+  text-decoration: none;
+}
+
+a:visited {
+  color: var(--pale-brown);
+}
+
+a:hover {
+  font-weight: 300;
+  text-decoration: none;
+  cursor: pointer;
+}
