@@ -20,26 +20,17 @@
   font-weight: 500;
 }
 
-.container {
+.paper {
   position: absolute;
-  width: 100%;
-  height: 100vh;
-  margin: 0 auto;
   padding: 25px;
   z-index: 6;
-}
-
-.paper {
-  position: relative;
-  height: 100%;
+  margin: 0 auto;
   display: grid;
   gap: 1px;
-  grid-template-rows: 150px 50px auto auto;
+  grid-template-rows: 150px 50px auto;
   grid-template-columns: 200px auto;
   grid-template-areas:
     "photo header"
     "contacts contacts"
-    "aside main"
     "aside main";
 }
-

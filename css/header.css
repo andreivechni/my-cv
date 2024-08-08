@@ -17,6 +17,7 @@
   font-size: 22px;
   text-transform: uppercase;
   margin-bottom: 4px;
+  margin-right: auto;
 }
 
 .fullname span {
@@ -43,6 +44,7 @@
   display: flex;
   align-items: center;
   gap: 10px;
+  margin-right: auto;
 }
 
 .js-icon {
@@ -58,6 +60,7 @@
   margin-left: 45px;
   display: flex;
   gap: 10px;
+  margin-right: auto;
 }
 
 .message svg {

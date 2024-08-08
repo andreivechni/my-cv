@@ -15,7 +15,7 @@
 }
 
 .contact-text {
-  color: #e9e5e5;
+  color: var(--lights-off);
   font-family: Roboto;
   font-weight: 100;
   letter-spacing: 0.1em;
@@ -49,12 +49,12 @@
 
 .contacts a:link {
   transition: all 0.2s;
-  color: #e9e5e5;
+  color: var(--lights-off);
   text-decoration: none;
 }
 
 .contacts a:visited {
-  color: #e9e5e5;
+  color: var(--lights-off);
 }
 
 .contacts a:hover {

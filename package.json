@@ -4,6 +4,10 @@
   "description": "Pure HTML and CSS cv",
   "author": "dreezi",
   "license": "MIT",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
   "devDependencies": {
     "parcel": "^2.2.1"
   }
